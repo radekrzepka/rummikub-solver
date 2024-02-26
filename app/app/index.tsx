@@ -6,7 +6,7 @@ const StyledView = styled(View);
 const HomePage = () => {
   return (
     <StyledView>
-      <StyledText>Home Page</StyledText>
+      <StyledText>Home Page rel dsadasdsadadsada</StyledText>
     </StyledView>
   );
 };

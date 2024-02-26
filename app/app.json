@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "rumikub-solver",
-    "slug": "rumikub-solver",
-    "scheme": "rumikub-solver",
+    "name": "rummikub-solver",
+    "slug": "rummikub-solver",
+    "scheme": "rummikub-solver",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
