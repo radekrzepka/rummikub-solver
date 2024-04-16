@@ -3,7 +3,7 @@ use std::{fmt, fs::File};
 use serde::Deserialize;
 use serde_json::Error;
 
-use crate::tile::{Color, FromWhere, Tile, TileMove, TileValue};
+use crate::tile::{Color, FromWhere, MoveType, Tile, TileMove, TileValue};
 
 #[derive(Debug, Deserialize, Clone)]
 pub enum SetType {
@@ -75,8 +75,9 @@ impl Board {
             value: TileValue::Number(num),
             color,
           },
-          from_where: FromWhere::Start,
           set_index,
+          from_where: FromWhere::Start,
+          move_type: MoveType::FromPlayerToBoard,
         };
         moves.push(new_move);
       }
@@ -96,8 +97,9 @@ impl Board {
               value: TileValue::Number(first_num - 1),
               color: first_tile.color.clone(),
             },
-            from_where: FromWhere::Start,
             set_index,
+            from_where: FromWhere::Start,
+            move_type: MoveType::FromPlayerToBoard,
           };
           moves.push(new_move);
         }
@@ -118,8 +120,9 @@ impl Board {
               value: TileValue::Number(last_num + 1),
               color: last_tile.color.clone(),
             },
-            from_where: FromWhere::End,
             set_index,
+            from_where: FromWhere::End,
+            move_type: MoveType::FromPlayerToBoard,
           };
           moves.push(new_move);
         }
@@ -160,6 +163,7 @@ impl Board {
               tile: first_tile.clone(),
               from_where: FromWhere::Start,
               set_index,
+              move_type: MoveType::FromBoardToPlayer,
             };
             removable_tiles.push(move_from_start);
           }
@@ -169,6 +173,7 @@ impl Board {
               tile: last_tile.clone(),
               from_where: FromWhere::End,
               set_index,
+              move_type: MoveType::FromBoardToPlayer,
             };
             removable_tiles.push(move_from_end);
           }
@@ -183,6 +188,7 @@ impl Board {
               tile: tile.clone(),
               from_where: FromWhere::Start,
               set_index,
+              move_type: MoveType::FromBoardToPlayer,
             };
             removable_tiles.push(move_from_group);
           }

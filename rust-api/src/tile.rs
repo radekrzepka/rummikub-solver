@@ -44,23 +44,34 @@ pub enum FromWhere {
 }
 
 #[derive(Debug)]
+pub enum MoveType {
+  FromPlayerToBoard,
+  FromBoardToPlayer,
+}
+
+#[derive(Debug)]
 pub struct TileMove {
   pub tile: Tile,
   pub from_where: FromWhere,
   pub set_index: usize,
+  pub move_type: MoveType,
 }
 
 impl fmt::Display for TileMove {
   fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
     write!(
       f,
-      "Move: '{}' {} of set {}",
+      "Move: '{}' {} of set {} move {}",
       self.tile,
       match self.from_where {
         FromWhere::Start => "start",
         FromWhere::End => "end",
       },
-      self.set_index
+      self.set_index,
+      match self.move_type {
+        MoveType::FromPlayerToBoard => "from player to board",
+        MoveType::FromBoardToPlayer => "from board to player",
+      },
     )
   }
 }
