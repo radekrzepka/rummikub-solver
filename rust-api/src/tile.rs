@@ -38,27 +38,27 @@ impl Tile {
 }
 
 #[derive(Debug)]
-pub enum WhereToAdd {
+pub enum FromWhere {
   Start,
   End,
 }
 
 #[derive(Debug)]
-pub struct AddTileMove {
+pub struct TileMove {
   pub tile: Tile,
-  pub where_to_add: WhereToAdd,
+  pub from_where: FromWhere,
   pub set_index: usize,
 }
 
-impl fmt::Display for AddTileMove {
+impl fmt::Display for TileMove {
   fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
     write!(
       f,
-      "Move: Add '{}' to the {} of set {}",
+      "Move: '{}' {} of set {}",
       self.tile,
-      match self.where_to_add {
-        WhereToAdd::Start => "start",
-        WhereToAdd::End => "end",
+      match self.from_where {
+        FromWhere::Start => "start",
+        FromWhere::End => "end",
       },
       self.set_index
     )

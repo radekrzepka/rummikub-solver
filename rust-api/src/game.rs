@@ -3,7 +3,7 @@ use std::{fmt, fs::File};
 use serde::Deserialize;
 use serde_json::Error;
 
-use crate::tile::{AddTileMove, Color, Tile, TileValue, WhereToAdd};
+use crate::tile::{Color, FromWhere, Tile, TileMove, TileValue};
 
 #[derive(Debug, Deserialize, Clone)]
 pub enum SetType {
@@ -54,7 +54,7 @@ impl fmt::Display for Board {
 }
 
 impl Board {
-  fn handle_group(&self, set: &Set, set_index: usize) -> Vec<AddTileMove> {
+  fn handle_group(&self, set: &Set, set_index: usize) -> Vec<TileMove> {
     let mut moves = Vec::new();
 
     if set.tiles.len() != 3 {
@@ -70,12 +70,12 @@ impl Board {
       }
 
       if let TileValue::Number(num) = set.tiles[0].value {
-        let new_move = AddTileMove {
+        let new_move = TileMove {
           tile: Tile {
             value: TileValue::Number(num),
             color,
           },
-          where_to_add: WhereToAdd::Start,
+          from_where: FromWhere::Start,
           set_index,
         };
         moves.push(new_move);
@@ -85,18 +85,18 @@ impl Board {
     return moves;
   }
 
-  fn handle_run_start(&self, set: &Set, set_index: usize) -> Vec<AddTileMove> {
+  fn handle_run_start(&self, set: &Set, set_index: usize) -> Vec<TileMove> {
     let mut moves = Vec::new();
 
     if let Some(first_tile) = set.tiles.first() {
       if let TileValue::Number(first_num) = first_tile.value {
         if first_num > 1 {
-          let new_move = AddTileMove {
+          let new_move = TileMove {
             tile: Tile {
               value: TileValue::Number(first_num - 1),
               color: first_tile.color.clone(),
             },
-            where_to_add: WhereToAdd::Start,
+            from_where: FromWhere::Start,
             set_index,
           };
           moves.push(new_move);
@@ -107,18 +107,18 @@ impl Board {
     return moves;
   }
 
-  fn handle_run_end(&self, set: &Set, set_index: usize) -> Vec<AddTileMove> {
+  fn handle_run_end(&self, set: &Set, set_index: usize) -> Vec<TileMove> {
     let mut moves = Vec::new();
 
     if let Some(last_tile) = set.tiles.last() {
       if let TileValue::Number(last_num) = last_tile.value {
         if last_num < 13 {
-          let new_move = AddTileMove {
+          let new_move = TileMove {
             tile: Tile {
               value: TileValue::Number(last_num + 1),
               color: last_tile.color.clone(),
             },
-            where_to_add: WhereToAdd::End,
+            from_where: FromWhere::End,
             set_index,
           };
           moves.push(new_move);
@@ -129,8 +129,8 @@ impl Board {
     return moves;
   }
 
-  fn tiles_to_add(&self) -> Vec<AddTileMove> {
-    let mut new_moves: Vec<AddTileMove> = Vec::new();
+  fn tiles_to_add(&self) -> Vec<TileMove> {
+    let mut new_moves: Vec<TileMove> = Vec::new();
 
     for (set_index, set) in self.sets.iter().enumerate() {
       match set.set_type {
@@ -143,6 +143,54 @@ impl Board {
     }
 
     return new_moves;
+  }
+
+  fn tiles_to_take(&self) -> Vec<TileMove> {
+    let mut removable_tiles = Vec::new();
+
+    for (set_index, set) in self.sets.iter().enumerate() {
+      match set.set_type {
+        SetType::Run => {
+          if set.tiles.len() <= 3 {
+            continue;
+          }
+
+          if let Some(first_tile) = set.tiles.first() {
+            let move_from_start = TileMove {
+              tile: first_tile.clone(),
+              from_where: FromWhere::Start,
+              set_index,
+            };
+            removable_tiles.push(move_from_start);
+          }
+
+          if let Some(last_tile) = set.tiles.last() {
+            let move_from_end = TileMove {
+              tile: last_tile.clone(),
+              from_where: FromWhere::End,
+              set_index,
+            };
+            removable_tiles.push(move_from_end);
+          }
+        }
+        SetType::Group => {
+          if set.tiles.len() <= 3 {
+            continue;
+          }
+
+          for tile in &set.tiles {
+            let move_from_group = TileMove {
+              tile: tile.clone(),
+              from_where: FromWhere::Start,
+              set_index,
+            };
+            removable_tiles.push(move_from_group);
+          }
+        }
+      }
+    }
+
+    return removable_tiles;
   }
 }
 
@@ -181,7 +229,7 @@ impl fmt::Display for Game {
 }
 
 impl Game {
-  fn get_adding_tiles_moves(&self) -> Vec<Game> {
+  fn get_adding_tiles_games(&self) -> Vec<Game> {
     let mut legal_moves = Vec::new();
     let tiles_to_add = self.board.tiles_to_add();
 
@@ -205,11 +253,11 @@ impl Game {
       new_player_tiles.remove(index);
 
       let mut new_sets = self.board.sets.clone();
-      match tile_to_add.where_to_add {
-        WhereToAdd::Start => new_sets[tile_to_add.set_index]
+      match tile_to_add.from_where {
+        FromWhere::Start => new_sets[tile_to_add.set_index]
           .tiles
           .insert(0, tile_to_add.tile.clone()),
-        WhereToAdd::End => new_sets[tile_to_add.set_index]
+        FromWhere::End => new_sets[tile_to_add.set_index]
           .tiles
           .push(tile_to_add.tile.clone()),
       }
@@ -228,10 +276,43 @@ impl Game {
     return legal_moves;
   }
 
+  fn get_taking_tiles_games(&self) -> Vec<Game> {
+    let tiles_to_move = self.board.tiles_to_take();
+    let mut new_games = Vec::new();
+
+    for potential_move in &tiles_to_move {
+      println!("Potential tile to delete: {}", potential_move);
+    }
+    print!("\n");
+
+    for tile_move in tiles_to_move {
+      let mut new_player_tiles = self.player_tiles.tiles.clone();
+      new_player_tiles.push(tile_move.tile.clone());
+
+      let mut new_sets = self.board.sets.clone();
+
+      match tile_move.from_where {
+        FromWhere::Start => Some(new_sets[tile_move.set_index].tiles.remove(0)),
+        FromWhere::End => new_sets[tile_move.set_index].tiles.pop(),
+      };
+
+      let new_board = Board { sets: new_sets };
+      let new_player = Player {
+        tiles: new_player_tiles,
+      };
+      new_games.push(Game {
+        board: new_board,
+        player_tiles: new_player,
+      });
+    }
+
+    return new_games;
+  }
+
   pub fn get_legal_moves(&self) -> Vec<Game> {
     let mut legal_moves = Vec::new();
-    legal_moves.extend(self.get_adding_tiles_moves()); //1. Get all possible moves player -> board
-                                                       //2. Get all possible moves board -> player
+    legal_moves.extend(self.get_adding_tiles_games()); //1. Get all possible moves player -> board
+    legal_moves.extend(self.get_taking_tiles_games()); //2. Get all possible moves board -> player
                                                        //3. Create new groups
                                                        //4. Split existing groups
 
