@@ -2,7 +2,7 @@ use std::fmt;
 
 use serde::Deserialize;
 
-#[derive(Debug, Deserialize, PartialEq, Clone)]
+#[derive(Debug, Deserialize, PartialEq, Clone, Eq, Hash)]
 pub enum Color {
   Red,
   Blue,
@@ -16,7 +16,7 @@ pub enum TileValue {
   Joker,
 }
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, PartialEq)]
 pub struct Tile {
   pub value: TileValue,
   pub color: Color,
@@ -28,12 +28,6 @@ impl fmt::Display for Tile {
       TileValue::Number(num) => write!(f, "{} {:?}", num, self.color),
       TileValue::Joker => write!(f, "Joker {:?}", self.color),
     }
-  }
-}
-
-impl Tile {
-  pub fn is_same_as(&self, other: &Tile) -> bool {
-    self.value == other.value && self.color == other.color
   }
 }
 

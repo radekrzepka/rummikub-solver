@@ -1,11 +1,15 @@
-use std::{fmt, fs::File};
+use std::{
+  collections::{HashMap, HashSet},
+  fmt,
+  fs::File,
+};
 
 use serde::Deserialize;
 use serde_json::Error;
 
 use crate::tile::{Color, FromWhere, MoveType, Tile, TileMove, TileValue};
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, PartialEq)]
 pub enum SetType {
   Group,
   Run,
@@ -198,11 +202,52 @@ impl Board {
 
     return removable_tiles;
   }
+
+  fn split_runs(&self, player_tiles: &Vec<Tile>) -> Vec<(Board, Vec<Tile>)> {
+    let mut new_configurations = Vec::new();
+
+    for (set_index, set) in self.sets.iter().enumerate() {
+      if set.set_type == SetType::Run && set.tiles.len() >= 6 {
+        let splits = self.find_run_splits(&set.tiles);
+        for split in splits {
+          let mut new_sets = self.sets.clone();
+          new_sets.remove(set_index);
+          new_sets.extend(split);
+
+          let new_board = Board { sets: new_sets };
+          new_configurations.push((new_board, player_tiles.clone()));
+        }
+      }
+    }
+
+    new_configurations
+  }
+
+  fn find_run_splits(&self, tiles: &[Tile]) -> Vec<Vec<Set>> {
+    let mut results = Vec::new();
+    let length = tiles.len();
+
+    for split_point in 3..(length - 2) {
+      if split_point >= 3 && (length - split_point) >= 3 {
+        let first_part = Set {
+          tiles: tiles[0..split_point].to_vec(),
+          set_type: SetType::Run,
+        };
+        let second_part = Set {
+          tiles: tiles[split_point..].to_vec(),
+          set_type: SetType::Run,
+        };
+        results.push(vec![first_part, second_part]);
+      }
+    }
+
+    results
+  }
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Clone)]
 pub struct Player {
-  tiles: Vec<Tile>,
+  pub tiles: Vec<Tile>,
 }
 
 impl fmt::Display for Player {
@@ -218,10 +263,10 @@ impl fmt::Display for Player {
   }
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Deserialize, Clone)]
 pub struct Game {
-  board: Board,
-  player_tiles: Player,
+  pub board: Board,
+  pub player_tiles: Player,
 }
 
 impl fmt::Display for Game {
@@ -239,17 +284,17 @@ impl Game {
     let mut legal_moves = Vec::new();
     let tiles_to_add = self.board.tiles_to_add();
 
-    for potential_move in &tiles_to_add {
-      println!("Potential tile to add: {}", potential_move);
-    }
-    print!("\n");
+    // for potential_move in &tiles_to_add {
+    //   println!("Potential tile to add: {}", potential_move);
+    // }
+    // print!("\n");
 
     for tile_to_add in &tiles_to_add {
       let index = match self
         .player_tiles
         .tiles
         .iter()
-        .position(|t| t.is_same_as(&tile_to_add.tile))
+        .position(|t| t == &tile_to_add.tile)
       {
         Some(i) => i,
         None => continue,
@@ -286,10 +331,10 @@ impl Game {
     let tiles_to_move = self.board.tiles_to_take();
     let mut new_games = Vec::new();
 
-    for potential_move in &tiles_to_move {
-      println!("Potential tile to delete: {}", potential_move);
-    }
-    print!("\n");
+    // for potential_move in &tiles_to_move {
+    //   println!("Potential tile to delete: {}", potential_move);
+    // }
+    // print!("\n");
 
     for tile_move in tiles_to_move {
       let mut new_player_tiles = self.player_tiles.tiles.clone();
@@ -315,12 +360,159 @@ impl Game {
     return new_games;
   }
 
+  fn create_new_sets_games(&self) -> Vec<Game> {
+    let mut new_games = Vec::new();
+    let possible_sets = self.find_possible_new_sets();
+
+    for set in possible_sets {
+      // println!("Potential set to create: {}", set);
+
+      let mut new_sets = self.board.sets.clone();
+      new_sets.push(set.clone());
+
+      let new_board = Board { sets: new_sets };
+
+      let mut new_player_tiles = self.player_tiles.tiles.clone();
+      for tile in &set.tiles {
+        if let Some(pos) = new_player_tiles.iter().position(|x| x == tile) {
+          new_player_tiles.remove(pos);
+        }
+      }
+
+      let new_player = Player {
+        tiles: new_player_tiles,
+      };
+
+      new_games.push(Game {
+        board: new_board,
+        player_tiles: new_player,
+      });
+    }
+
+    return new_games;
+  }
+
+  fn all_different_colors(tiles: &Vec<Tile>) -> bool {
+    let mut color_set = HashSet::new();
+    for tile in tiles {
+      if !color_set.insert(tile.color.clone()) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  fn find_possible_new_sets(&self) -> Vec<Set> {
+    let mut possible_sets = Vec::new();
+    let grouped_by_number = self.group_tiles_by_number();
+    let grouped_by_color = self.group_tiles_by_color();
+
+    for (_, tiles) in &grouped_by_number {
+      if tiles.len() >= 3 && Game::all_different_colors(tiles) {
+        possible_sets.push(Set {
+          tiles: tiles.clone(),
+          set_type: SetType::Group,
+        });
+      }
+    }
+    for (_, tiles) in &grouped_by_color {
+      let consecutive_tiles = self.find_consecutive_tiles(tiles);
+      if consecutive_tiles.len() >= 3 {
+        possible_sets.push(Set {
+          tiles: consecutive_tiles,
+          set_type: SetType::Run,
+        });
+      }
+    }
+
+    return possible_sets;
+  }
+
+  fn group_tiles_by_number(&self) -> HashMap<u8, Vec<Tile>> {
+    let mut map = HashMap::new();
+
+    for tile in &self.player_tiles.tiles {
+      match tile.value {
+        TileValue::Number(num) => {
+          let entry = map.entry(num).or_insert_with(Vec::new);
+          entry.push(tile.clone());
+        }
+        _ => {}
+      }
+    }
+
+    return map;
+  }
+
+  fn group_tiles_by_color(&self) -> HashMap<Color, Vec<Tile>> {
+    let mut map = HashMap::new();
+
+    for tile in &self.player_tiles.tiles {
+      let entry = map.entry(tile.color.clone()).or_insert_with(Vec::new);
+      entry.push(tile.clone());
+    }
+
+    return map;
+  }
+
+  fn find_consecutive_tiles(&self, tiles: &[Tile]) -> Vec<Tile> {
+    let mut sorted_tiles = tiles.to_vec();
+    sorted_tiles.sort_by_key(|t| match t.value {
+      TileValue::Number(num) => num,
+      _ => 0,
+    });
+
+    let mut consecutive_tiles = Vec::new();
+    let mut last_num = 0;
+
+    for tile in sorted_tiles {
+      match tile.value {
+        TileValue::Number(num) if num == last_num + 1 || consecutive_tiles.is_empty() => {
+          consecutive_tiles.push(tile.clone());
+          last_num = num;
+        }
+        TileValue::Number(num) => {
+          if consecutive_tiles.len() >= 3 {
+            break;
+          }
+          consecutive_tiles.clear();
+          consecutive_tiles.push(tile.clone());
+          last_num = num;
+        }
+        _ => {}
+      }
+    }
+
+    return consecutive_tiles;
+  }
+
+  fn split_games(&self) -> Vec<Game> {
+    let mut new_games = Vec::new();
+
+    let split_games = self.board.split_runs(&self.player_tiles.tiles);
+    for (new_board, new_player_tiles) in split_games {
+      new_games.push(Game {
+        board: new_board,
+        player_tiles: Player {
+          tiles: new_player_tiles,
+        },
+      });
+    }
+
+    return new_games;
+  }
+
+  pub fn count_tiles(&self) -> usize {
+    self.board.sets.iter().flat_map(|s| &s.tiles).count() + self.player_tiles.tiles.len()
+  }
+
   pub fn get_legal_moves(&self) -> Vec<Game> {
     let mut legal_moves = Vec::new();
+
     legal_moves.extend(self.get_adding_tiles_games()); //1. Get all possible moves player -> board
     legal_moves.extend(self.get_taking_tiles_games()); //2. Get all possible moves board -> player
-                                                       //3. Create new groups
-                                                       //4. Split existing groups
+    legal_moves.extend(self.create_new_sets_games()); //3. Create new sets
+    legal_moves.extend(self.split_games()); //4. Split sets
 
     return legal_moves;
   }

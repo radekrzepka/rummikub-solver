@@ -6,7 +6,12 @@
                { "value": { "Number": 1 }, "color": "Blue" },
                { "value": { "Number": 2 }, "color": "Blue" },
                { "value": { "Number": 3 }, "color": "Blue" },
-               { "value": { "Number": 4 }, "color": "Blue" }
+               { "value": { "Number": 4 }, "color": "Blue" },
+               { "value": { "Number": 5 }, "color": "Blue" },
+               { "value": { "Number": 6 }, "color": "Blue" },
+               { "value": { "Number": 7 }, "color": "Blue" },
+               { "value": { "Number": 8 }, "color": "Blue" },
+               { "value": { "Number": 9 }, "color": "Blue" }
             ],
             "set_type": "Run"
          },
@@ -26,6 +31,7 @@
          { "value": { "Number": 5 }, "color": "Blue" },
          { "value": { "Number": 2 }, "color": "Yellow" },
          { "value": { "Number": 3 }, "color": "Yellow" },
+         { "value": { "Number": 1 }, "color": "Red" },
          { "value": { "Number": 2 }, "color": "Red" },
          { "value": { "Number": 3 }, "color": "Red" }
       ]
