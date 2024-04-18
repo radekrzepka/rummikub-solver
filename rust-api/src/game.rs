@@ -9,7 +9,7 @@ use serde_json::Error;
 
 use crate::tile::{Color, FromWhere, MoveType, Tile, TileMove, TileValue};
 
-#[derive(Debug, Deserialize, Clone, PartialEq)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
 pub enum SetType {
   Group,
   Run,
@@ -17,14 +17,14 @@ pub enum SetType {
 
 impl fmt::Display for SetType {
   fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-    match *self {
+    match self {
       SetType::Group => write!(f, "Group:"),
       SetType::Run => write!(f, "Run:"),
     }
   }
 }
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
 pub struct Set {
   tiles: Vec<Tile>,
   set_type: SetType,
@@ -43,7 +43,7 @@ impl fmt::Display for Set {
   }
 }
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
 pub struct Board {
   sets: Vec<Set>,
 }
@@ -245,7 +245,7 @@ impl Board {
   }
 }
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Eq, Hash)]
 pub struct Player {
   pub tiles: Vec<Tile>,
 }
@@ -263,7 +263,7 @@ impl fmt::Display for Player {
   }
 }
 
-#[derive(Debug, Deserialize, Clone)]
+#[derive(Debug, Deserialize, Clone, Eq, Hash, PartialEq)]
 pub struct Game {
   pub board: Board,
   pub player_tiles: Player,
@@ -502,8 +502,8 @@ impl Game {
     return new_games;
   }
 
-  pub fn count_tiles(&self) -> usize {
-    self.board.sets.iter().flat_map(|s| &s.tiles).count() + self.player_tiles.tiles.len()
+  pub fn player_tiles_length(&self) -> u8 {
+    return self.player_tiles.tiles.len() as u8;
   }
 
   pub fn get_legal_moves(&self) -> Vec<Game> {

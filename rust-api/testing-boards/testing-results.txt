@@ -1,0 +1,1710 @@
+Game 6
+STARTING GAME:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 9 Yellow, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 1: Games calculated: 8
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 2: Games calculated: 50
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 3: Games calculated: 141
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 4: Games calculated: 284
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 5: Games calculated: 614
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 6: Games calculated: 806
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 7: Games calculated: 1404
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 8: Games calculated: 1876
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 9: Games calculated: 2240
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 10: Games calculated: 2747
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 11: Games calculated: 3589
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 12: Games calculated: 2855
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 13: Games calculated: 3559
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 14: Games calculated: 3553
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+At depth 15: Games calculated: 3952
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue]
+Group: [9 Yellow, 9 Red, 9 Black, 9 Blue]
+Player Tiles: [1 Black, 5 Black, 2 Red, 8 Red, 1 Blue, 3 Black]
+
+Game 7
+STARTING GAME:
+
+Board:
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Player Tiles: [4 Yellow, 4 Blue, 8 Black, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 1: Games calculated: 14
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [6 Red, 7 Red, 8 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Player Tiles: [4 Yellow, 4 Blue, 8 Black, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 2: Games calculated: 158
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 3: Games calculated: 255
+Best game found with 6 tiles remaining:
+
+Board:
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [6 Red, 7 Red, 8 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 4: Games calculated: 1326
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 5: Games calculated: 1228
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Player Tiles: [4 Yellow, 4 Blue, 8 Black, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 6: Games calculated: 7305
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [6 Red, 7 Red, 8 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 7: Games calculated: 8392
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [6 Red, 7 Red, 8 Red]
+Run: [8 Black, 9 Black, 10 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 8: Games calculated: 28150
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Run: [6 Red, 7 Red, 8 Red]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 9: Games calculated: 24051
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [11 Red, 12 Red, 13 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [8 Black, 9 Black, 10 Black]
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 10: Games calculated: 43420
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [11 Red, 12 Red, 13 Red]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 11: Games calculated: 46654
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [11 Red, 12 Red, 13 Red]
+Run: [8 Black, 9 Black, 10 Black]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 12: Games calculated: 89975
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Run: [6 Red, 7 Red, 8 Red]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 13: Games calculated: 59005
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [11 Red, 12 Red, 13 Red]
+Run: [8 Black, 9 Black, 10 Black]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 14: Games calculated: 68715
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+At depth 15: Games calculated: 129602
+Best game found with 6 tiles remaining:
+
+Board:
+Group: [10 Red, 10 Blue, 10 Black, 10 Yellow]
+Run: [6 Red, 7 Red, 8 Red, 9 Red, 10 Red]
+Run: [11 Red, 12 Red, 13 Red]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [8 Black, 9 Black, 10 Black]
+Player Tiles: [4 Yellow, 4 Blue, 1 Black, 4 Blue, 5 Blue, 8 Black]
+
+Game 8
+STARTING GAME:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Run: [3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Player Tiles: [3 Black, 9 Red, 5 Red, 10 Yellow, 2 Red, 6 Black, 9 Red]
+
+At depth 1: Games calculated: 16
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Player Tiles: [3 Black, 9 Red, 5 Red, 10 Yellow, 6 Black, 9 Red]
+
+At depth 2: Games calculated: 212
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Player Tiles: [3 Black, 5 Red, 10 Yellow, 6 Black, 9 Red]
+
+At depth 3: Games calculated: 704
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Player Tiles: [3 Black, 5 Red, 10 Yellow, 6 Black, 9 Red]
+
+At depth 4: Games calculated: 2891
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 5: Games calculated: 7070
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [5 Blue, 6 Blue, 7 Blue]
+Run: [8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 6: Games calculated: 21825
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 7: Games calculated: 41397
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Run: [9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 8: Games calculated: 75804
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [5 Blue, 6 Blue, 7 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 9: Games calculated: 141655
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Run: [9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 10: Games calculated: 288816
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [5 Blue, 6 Blue, 7 Blue]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 11: Games calculated: 523735
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue, 10 Blue]
+Run: [11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 12: Games calculated: 806214
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [3 Blue, 4 Blue, 5 Blue]
+Run: [8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [5 Blue, 6 Blue, 7 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 13: Games calculated: 1035605
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [8 Blue, 9 Blue, 10 Blue]
+Run: [11 Blue, 12 Blue, 13 Blue]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [3 Blue, 4 Blue, 5 Blue]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 14: Games calculated: 3412756
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue]
+Run: [8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [3 Blue, 4 Blue, 5 Blue]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+At depth 15: Games calculated: 3120482
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue]
+Run: [8 Blue, 9 Blue, 10 Blue, 11 Blue, 12 Blue, 13 Blue]
+Group: [12 Red, 12 Blue, 12 Black, 12 Yellow]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [3 Blue, 4 Blue, 5 Blue]
+Player Tiles: [3 Black, 10 Yellow, 6 Black, 9 Red]
+
+Game 9
+STARTING GAME:
+
+Board:
+Run: [1 Red, 2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Player Tiles: [8 Red, 3 Red, 5 Black, 13 Blue, 6 Red, 12 Red, 5 Black]
+
+At depth 1: Games calculated: 13
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [8 Red, 3 Red, 5 Black, 13 Blue, 6 Red, 12 Red, 5 Black]
+
+At depth 2: Games calculated: 133
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 6 Red, 12 Red, 5 Black]
+
+At depth 3: Games calculated: 226
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 6 Red, 12 Red, 5 Black]
+
+At depth 4: Games calculated: 1166
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 5: Games calculated: 1105
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [1 Red, 2 Red, 3 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 6: Games calculated: 4583
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 7: Games calculated: 6565
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [1 Red, 2 Red, 3 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 8: Games calculated: 19670
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 6 Red, 12 Red, 5 Black]
+
+At depth 9: Games calculated: 22374
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [1 Red, 2 Red, 3 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 10: Games calculated: 51058
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 11: Games calculated: 59005
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [1 Red, 2 Red, 3 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 12: Games calculated: 87825
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 13: Games calculated: 89827
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 14: Games calculated: 175222
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+At depth 15: Games calculated: 253088
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Run: [5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [13 Red, 13 Blue, 13 Yellow, 13 Black]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [3 Red, 4 Red, 5 Red, 6 Red]
+Player Tiles: [8 Red, 5 Black, 13 Blue, 12 Red, 5 Black]
+
+Game 10
+STARTING GAME:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 1: Games calculated: 18
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [7 Yellow, 8 Yellow, 9 Yellow]
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 2: Games calculated: 280
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 3: Games calculated: 497
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 4: Games calculated: 3712
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 5: Games calculated: 3800
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 6: Games calculated: 44456
+Best game found with 6 tiles remaining:
+
+Board:
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [7 Yellow, 8 Yellow, 9 Yellow]
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [9 Blue, 9 Black, 9 Yellow]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 7: Games calculated: 39606
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 8: Games calculated: 121871
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black, 9 Black, 10 Black, 11 Black, 12 Black]
+Group: [1 Yellow, 1 Red, 1 Black]
+Player Tiles: [2 Red, 4 Black, 9 Blue, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 9: Games calculated: 141417
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Run: [7 Yellow, 8 Yellow, 9 Yellow]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [9 Blue, 9 Yellow, 9 Black]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 10: Games calculated: 360361
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Run: [3 Black, 4 Black, 5 Black]
+Run: [6 Black, 7 Black, 8 Black]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [9 Blue, 9 Black, 9 Yellow]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 11: Games calculated: 517540
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [7 Yellow, 8 Yellow, 9 Yellow]
+Group: [9 Blue, 9 Black, 9 Yellow]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 12: Games calculated: 2042751
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black]
+Run: [6 Black, 7 Black, 8 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Group: [9 Blue, 9 Yellow, 9 Black]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 13: Games calculated: 2948405
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Group: [9 Blue, 9 Yellow, 9 Black]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 14: Games calculated: 4086158
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow]
+Run: [11 Yellow, 12 Yellow, 13 Yellow]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Group: [9 Blue, 9 Yellow, 9 Black]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+At depth 15: Games calculated: 2604809
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Run: [7 Yellow, 8 Yellow, 9 Yellow, 10 Yellow, 11 Yellow, 12 Yellow, 13 Yellow]
+Group: [1 Yellow, 1 Red, 1 Black]
+Run: [3 Black, 4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [10 Black, 11 Black, 12 Black]
+Group: [9 Blue, 9 Yellow, 9 Black]
+Run: [5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow]
+Player Tiles: [2 Red, 4 Black, 3 Blue, 7 Red, 12 Red, 7 Red]
+
+Game 11
+STARTING GAME:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 8 Red, 1 Yellow, 6 Yellow, 1 Yellow, 6 Red, 13 Red]
+
+At depth 1: Games calculated: 12
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 6 Yellow, 1 Yellow, 6 Red, 13 Red]
+
+At depth 2: Games calculated: 119
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 6 Yellow, 1 Yellow, 6 Red]
+
+At depth 3: Games calculated: 351
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 6 Yellow, 1 Yellow, 6 Red]
+
+At depth 4: Games calculated: 987
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 5: Games calculated: 3209
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 6: Games calculated: 4585
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 7: Games calculated: 9052
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [8 Red, 9 Red, 10 Red]
+Run: [11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 8: Games calculated: 18746
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 6 Red, 1 Yellow]
+
+At depth 9: Games calculated: 17613
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 10: Games calculated: 54074
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 11: Games calculated: 42583
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [8 Red, 9 Red, 10 Red]
+Run: [11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 6 Red, 1 Yellow]
+
+At depth 12: Games calculated: 115358
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Run: [8 Red, 9 Red, 10 Red]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 13: Games calculated: 73142
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 14: Games calculated: 151108
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow, 4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Run: [8 Red, 9 Red, 10 Red]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+At depth 15: Games calculated: 362080
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red]
+Run: [11 Red, 12 Red, 13 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Yellow, 5 Yellow, 6 Yellow]
+Run: [6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Run: [8 Red, 9 Red, 10 Red]
+Player Tiles: [12 Black, 1 Yellow, 1 Yellow, 6 Red]
+
+Game 12
+STARTING GAME:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 1: Games calculated: 8
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 2: Games calculated: 48
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 3: Games calculated: 68
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 4: Games calculated: 164
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 5: Games calculated: 159
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 6: Games calculated: 369
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 7: Games calculated: 284
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 8: Games calculated: 594
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 9: Games calculated: 604
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 10: Games calculated: 668
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 11: Games calculated: 529
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 12: Games calculated: 978
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 13: Games calculated: 798
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 14: Games calculated: 959
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+At depth 15: Games calculated: 976
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [8 Red, 9 Red, 10 Red, 11 Red]
+Run: [1 Yellow, 2 Yellow, 3 Yellow]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red]
+Player Tiles: [4 Blue, 1 Yellow, 2 Blue, 11 Blue, 13 Black, 1 Red, 6 Black]
+
+Game 13
+STARTING GAME:
+
+Board:
+Run: [2 Black, 3 Black, 4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Blue, 12 Black, 12 Red]
+Player Tiles: [1 Black, 9 Red, 12 Yellow, 4 Black, 8 Red, 4 Black, 4 Blue]
+
+At depth 1: Games calculated: 15
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [1 Black, 2 Black, 3 Black, 4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Blue, 12 Black, 12 Red]
+Player Tiles: [9 Red, 12 Yellow, 4 Black, 8 Red, 4 Black, 4 Blue]
+
+At depth 2: Games calculated: 206
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [1 Black, 2 Black, 3 Black, 4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Player Tiles: [9 Red, 4 Black, 8 Red, 4 Black, 4 Blue]
+
+At depth 3: Games calculated: 655
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [1 Black, 2 Black, 3 Black, 4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Player Tiles: [9 Red, 4 Black, 8 Red, 4 Black, 4 Blue]
+
+At depth 4: Games calculated: 3782
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [4 Black, 5 Black, 6 Black]
+Player Tiles: [9 Red, 8 Red, 4 Black, 4 Blue]
+
+At depth 5: Games calculated: 11118
+Best game found with 3 tiles remaining:
+
+Board:
+Run: [1 Black, 2 Black, 3 Black, 4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Run: [7 Red, 8 Red, 9 Red]
+Player Tiles: [4 Black, 4 Black, 4 Blue]
+
+At depth 6: Games calculated: 37640
+Best game found with 3 tiles remaining:
+
+Board:
+Run: [1 Black, 2 Black, 3 Black, 4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [2 Red, 3 Red, 4 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Player Tiles: [4 Black, 4 Black, 4 Blue]
+
+At depth 7: Games calculated: 100066
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [4 Black, 5 Black, 6 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Player Tiles: [4 Black, 4 Blue]
+
+At depth 8: Games calculated: 176350
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [4 Black, 5 Black, 6 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Run: [6 Red, 7 Red, 8 Red, 9 Red]
+Player Tiles: [4 Black, 4 Blue]
+
+At depth 9: Games calculated: 579720
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [7 Red, 8 Red, 9 Red]
+Player Tiles: [4 Black, 4 Blue]
+
+At depth 10: Games calculated: 1314537
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [2 Red, 3 Red, 4 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Player Tiles: [4 Black, 4 Blue]
+
+At depth 11: Games calculated: 3428226
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [7 Red, 8 Red, 9 Red]
+Player Tiles: [4 Blue, 4 Black]
+
+At depth 12: Games calculated: 5908719
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [2 Red, 3 Red, 4 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Player Tiles: [4 Blue, 4 Black]
+
+At depth 13: Games calculated: 7982553
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [7 Red, 8 Red, 9 Red]
+Player Tiles: [4 Black, 4 Blue]
+
+At depth 14: Games calculated: 13866985
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black]
+Group: [8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black, 8 Black]
+Run: [2 Red, 3 Red, 4 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Player Tiles: [4 Black, 4 Blue]
+
+At depth 15: Games calculated: 22205328
+Best game found with 2 tiles remaining:
+
+Board:
+Run: [4 Black, 5 Black, 6 Black]
+Group: [8 Black, 8 Blue, 8 Red, 8 Yellow]
+Group: [12 Yellow, 12 Blue, 12 Black, 12 Red]
+Run: [1 Black, 2 Black, 3 Black, 4 Black]
+Run: [4 Black, 5 Black, 6 Black, 7 Black]
+Run: [2 Red, 3 Red, 4 Red, 5 Red, 6 Red]
+Run: [8 Red, 9 Red, 10 Red, 11 Red, 12 Red]
+Run: [7 Red, 8 Red, 9 Red]
+Player Tiles: [4 Black, 4 Blue]
+
+Game 14
+STARTING GAME:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue]
+Player Tiles: [5 Yellow, 4 Blue, 13 Blue, 9 Black, 2 Black, 13 Yellow, 4 Black]
+
+At depth 1: Games calculated: 9
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue]
+Player Tiles: [5 Yellow, 4 Blue, 13 Blue, 9 Black, 2 Black, 13 Yellow, 4 Black]
+
+At depth 2: Games calculated: 63
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 9 Black, 2 Black, 13 Yellow, 4 Black]
+
+At depth 3: Games calculated: 92
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Player Tiles: [5 Yellow, 4 Blue, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 4: Games calculated: 301
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 9 Black, 2 Black, 13 Yellow, 4 Black]
+
+At depth 5: Games calculated: 262
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 6: Games calculated: 952
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Group: [9 Black, 9 Blue, 9 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 7: Games calculated: 758
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 8: Games calculated: 1398
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [9 Red, 10 Red, 11 Red, 12 Red]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue, 9 Blue]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 9 Black, 2 Black, 13 Yellow, 4 Black]
+
+At depth 9: Games calculated: 1333
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 10: Games calculated: 2267
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 11: Games calculated: 3189
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 12: Games calculated: 3512
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Group: [9 Black, 9 Red, 9 Blue]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 13: Games calculated: 4968
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 14: Games calculated: 5071
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Red, 9 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+At depth 15: Games calculated: 5266
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [10 Red, 11 Red, 12 Red]
+Run: [4 Blue, 5 Blue, 6 Blue, 7 Blue, 8 Blue]
+Group: [9 Black, 9 Blue, 9 Red]
+Run: [1 Blue, 2 Blue, 3 Blue, 4 Blue]
+Player Tiles: [5 Yellow, 13 Blue, 2 Black, 13 Yellow, 4 Black]
+
+Game 15
+STARTING GAME:
+
+Board:
+Run: [1 Red, 2 Red, 3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Player Tiles: [12 Red, 7 Red, 4 Blue, 1 Yellow, 2 Black, 5 Red, 2 Yellow]
+
+At depth 1: Games calculated: 16
+Best game found with 7 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [1 Red, 2 Red, 3 Red]
+Run: [4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Player Tiles: [12 Red, 7 Red, 4 Blue, 1 Yellow, 2 Black, 5 Red, 2 Yellow]
+
+At depth 2: Games calculated: 219
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [1 Red, 2 Red, 3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Player Tiles: [12 Red, 7 Red, 4 Blue, 1 Yellow, 2 Black, 2 Yellow]
+
+At depth 3: Games calculated: 364
+Best game found with 6 tiles remaining:
+
+Board:
+Run: [3 Red, 4 Red, 5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Group: [2 Black, 2 Yellow, 2 Red]
+Player Tiles: [12 Red, 7 Red, 4 Blue, 1 Yellow, 5 Red, 1 Red]
+
+At depth 4: Games calculated: 3334
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [1 Red, 2 Red, 3 Red, 4 Red, 5 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 2 Black, 2 Yellow]
+
+At depth 5: Games calculated: 3349
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [2 Black, 2 Yellow, 2 Red]
+Player Tiles: [12 Red, 7 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 6: Games calculated: 30693
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 7: Games calculated: 29044
+Best game found with 5 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [5 Red, 6 Red, 7 Red, 8 Red, 9 Red, 10 Red]
+Run: [11 Red, 12 Red, 13 Red]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Player Tiles: [12 Red, 7 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 8: Games calculated: 181557
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 9: Games calculated: 167824
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [11 Red, 12 Red, 13 Red]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 10: Games calculated: 606288
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 11: Games calculated: 526978
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [5 Red, 6 Red, 7 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 12: Games calculated: 1311211
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 13: Games calculated: 1660643
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [11 Red, 12 Red, 13 Red]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 14: Games calculated: 5289403
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red, 11 Red, 12 Red, 13 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
+At depth 15: Games calculated: 4102218
+Best game found with 4 tiles remaining:
+
+Board:
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Run: [4 Yellow, 5 Yellow, 6 Yellow, 7 Yellow, 8 Yellow, 9 Yellow]
+Group: [13 Blue, 13 Black, 13 Yellow]
+Run: [11 Red, 12 Red, 13 Red]
+Run: [5 Red, 6 Red, 7 Red]
+Run: [7 Red, 8 Red, 9 Red, 10 Red]
+Group: [2 Black, 2 Yellow, 2 Red]
+Run: [3 Red, 4 Red, 5 Red]
+Player Tiles: [12 Red, 4 Blue, 1 Yellow, 1 Red]
+
