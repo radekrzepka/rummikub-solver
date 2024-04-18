@@ -1,0 +1,37 @@
+{
+    "board": {
+       "sets": [
+          {
+             "tiles": [
+                { "value": { "Number": 1 }, "color": "Blue" },
+                { "value": { "Number": 2 }, "color": "Blue" },
+                { "value": { "Number": 3 }, "color": "Blue" },
+                { "value": { "Number": 4 }, "color": "Blue" },
+                { "value": { "Number": 5 }, "color": "Blue" },
+                { "value": { "Number": 6 }, "color": "Blue" }
+             ],
+             "set_type": "Run"
+          },
+          {
+             "tiles": [
+                { "value": { "Number": 1 }, "color": "Black" },
+                { "value": { "Number": 1 }, "color": "Red" },
+                { "value": { "Number": 1 }, "color": "Yellow" }
+             ],
+             "set_type": "Group"
+          }
+       ]
+    },
+    "player_tiles": {
+       "tiles": [
+          { "value": { "Number": 4 }, "color": "Blue" },
+          { "value": { "Number": 2 }, "color": "Yellow" },
+          { "value": { "Number": 3 }, "color": "Yellow" },
+          { "value": { "Number": 2 }, "color": "Red" },
+          { "value": { "Number": 3 }, "color": "Red" },
+          { "value": { "Number": 2 }, "color": "Black" },
+          { "value": { "Number": 3 }, "color": "Black" }
+       ]
+    }
+ }
+ 

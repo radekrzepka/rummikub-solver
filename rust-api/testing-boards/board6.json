@@ -1,0 +1,134 @@
+{
+   "board": {
+      "sets": [
+         {
+            "tiles": [
+               {
+                  "value": {
+                     "Number": 4
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 5
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 6
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 7
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 8
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 9
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 10
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 11
+                  },
+                  "color": "Blue"
+               },
+               {
+                  "value": {
+                     "Number": 12
+                  },
+                  "color": "Blue"
+               }
+            ],
+            "set_type": "Run"
+         },
+         {
+            "tiles": [
+               {
+                  "value": {
+                     "Number": 9
+                  },
+                  "color": "Red"
+               },
+               {
+                  "value": {
+                     "Number": 9
+                  },
+                  "color": "Black"
+               },
+               {
+                  "value": {
+                     "Number": 9
+                  },
+                  "color": "Blue"
+               }
+            ],
+            "set_type": "Group"
+         }
+      ]
+   },
+   "player_tiles": {
+      "tiles": [
+         {
+            "value": {
+               "Number": 1
+            },
+            "color": "Black"
+         },
+         {
+            "value": {
+               "Number": 9
+            },
+            "color": "Yellow"
+         },
+         {
+            "value": {
+               "Number": 5
+            },
+            "color": "Black"
+         },
+         {
+            "value": {
+               "Number": 2
+            },
+            "color": "Red"
+         },
+         {
+            "value": {
+               "Number": 8
+            },
+            "color": "Red"
+         },
+         {
+            "value": {
+               "Number": 1
+            },
+            "color": "Blue"
+         },
+         {
+            "value": {
+               "Number": 3
+            },
+            "color": "Black"
+         }
+      ]
+   }
+}

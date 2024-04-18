@@ -1,0 +1,67 @@
+{
+   "board": {
+      "sets": [
+         {
+            "tiles": [
+               { "value": { "Number": 1 }, "color": "Blue" },
+               { "value": { "Number": 2 }, "color": "Blue" },
+               { "value": { "Number": 3 }, "color": "Blue" }
+            ],
+            "set_type": "Run"
+         },
+         {
+            "tiles": [
+               { "value": { "Number": 11 }, "color": "Red" },
+               { "value": { "Number": 12 }, "color": "Red" },
+               { "value": { "Number": 13 }, "color": "Red" }
+            ],
+            "set_type": "Run"
+         },
+         {
+            "tiles": [
+               { "value": { "Number": 3 }, "color": "Black" },
+               { "value": { "Number": 4 }, "color": "Black" },
+               { "value": { "Number": 5 }, "color": "Black" }
+            ],
+            "set_type": "Run"
+         },
+         {
+            "tiles": [
+               { "value": { "Number": 7 }, "color": "Yellow" },
+               { "value": { "Number": 8 }, "color": "Yellow" },
+               { "value": { "Number": 9 }, "color": "Yellow" }
+            ],
+            "set_type": "Run"
+         },
+         {
+            "tiles": [
+               { "value": { "Number": 9 }, "color": "Black" },
+               { "value": { "Number": 9 }, "color": "Yellow" },
+               { "value": { "Number": 9 }, "color": "Red" }
+            ],
+            "set_type": "Group"
+         },
+         {
+            "tiles": [
+               { "value": { "Number": 6 }, "color": "Red" },
+               { "value": { "Number": 6 }, "color": "Yellow" },
+               { "value": { "Number": 6 }, "color": "Blue" }
+            ],
+            "set_type": "Group"
+         }
+      ]
+   },
+   "player_tiles": {
+      "tiles": [
+         { "value": { "Number": 1 }, "color": "Red" },
+         { "value": { "Number": 2 }, "color": "Black" },
+         { "value": { "Number": 5 }, "color": "Red" },
+         { "value": { "Number": 12 }, "color": "Black" },
+         { "value": { "Number": 10 }, "color": "Blue" },
+         { "value": { "Number": 4 }, "color": "Red" },
+         { "value": { "Number": 3 }, "color": "Yellow" },
+         { "value": { "Number": 8 }, "color": "Black" },
+         { "value": { "Number": 11 }, "color": "Yellow" }
+      ]
+   }
+}

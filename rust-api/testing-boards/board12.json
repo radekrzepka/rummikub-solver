@@ -1,0 +1,157 @@
+{
+    "board": {
+        "sets": [
+            {
+                "tiles": [
+                    {
+                        "value": {
+                            "Number": 8
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 9
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 10
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 11
+                        },
+                        "color": "Red"
+                    }
+                ],
+                "set_type": "Run"
+            },
+            {
+                "tiles": [
+                    {
+                        "value": {
+                            "Number": 1
+                        },
+                        "color": "Yellow"
+                    },
+                    {
+                        "value": {
+                            "Number": 2
+                        },
+                        "color": "Yellow"
+                    },
+                    {
+                        "value": {
+                            "Number": 3
+                        },
+                        "color": "Yellow"
+                    }
+                ],
+                "set_type": "Run"
+            },
+            {
+                "tiles": [
+                    {
+                        "value": {
+                            "Number": 4
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 5
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 6
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 7
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 8
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 9
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 10
+                        },
+                        "color": "Red"
+                    },
+                    {
+                        "value": {
+                            "Number": 11
+                        },
+                        "color": "Red"
+                    }
+                ],
+                "set_type": "Run"
+            }
+        ]
+    },
+    "player_tiles": {
+        "tiles": [
+            {
+                "value": {
+                    "Number": 4
+                },
+                "color": "Blue"
+            },
+            {
+                "value": {
+                    "Number": 1
+                },
+                "color": "Yellow"
+            },
+            {
+                "value": {
+                    "Number": 2
+                },
+                "color": "Blue"
+            },
+            {
+                "value": {
+                    "Number": 11
+                },
+                "color": "Blue"
+            },
+            {
+                "value": {
+                    "Number": 13
+                },
+                "color": "Black"
+            },
+            {
+                "value": {
+                    "Number": 1
+                },
+                "color": "Red"
+            },
+            {
+                "value": {
+                    "Number": 6
+                },
+                "color": "Black"
+            }
+        ]
+    }
+}

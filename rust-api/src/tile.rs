@@ -10,13 +10,13 @@ pub enum Color {
   Black,
 }
 
-#[derive(Debug, Deserialize, PartialEq, Clone)]
+#[derive(Debug, Deserialize, PartialEq, Clone, Hash, Eq)]
 pub enum TileValue {
   Number(u8),
   Joker,
 }
 
-#[derive(Debug, Deserialize, Clone, PartialEq)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
 pub struct Tile {
   pub value: TileValue,
   pub color: Color,
