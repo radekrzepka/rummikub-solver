@@ -42,8 +42,6 @@ fn find_best_game(
 ) -> Option<Game> {
   *counter += 1;
 
-  println!("{} {}", depth, counter);
-
   if !all_games.insert(current_game.clone()) {
     return None;
   }
