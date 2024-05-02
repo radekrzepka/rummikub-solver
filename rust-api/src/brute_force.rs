@@ -2,28 +2,28 @@ use std::collections::HashSet;
 
 use crate::game::Game;
 
-const MAX_DEPTH: usize = 15;
+const DEPTH: usize = 15;
 
-pub fn find_best_game_brute_force(game: &Game) {
+pub fn find_best_game_brute_force(game: &Game) -> Option<Game> {
   println!("STARTING GAME:\n{}", game);
 
-  for depth in 1..=MAX_DEPTH {
-    let mut counter = 0;
-    let mut all_games = HashSet::new();
-    let best_game = find_best_game(game, depth, &mut counter, &mut all_games);
+  let mut counter = 0;
+  let mut all_games = HashSet::new();
+  let best_game = find_best_game(game, DEPTH, &mut counter, &mut all_games);
 
-    println!("At depth {}: Games calculated: {}", depth, counter);
+  println!("At depth {}: Games calculated: {}", DEPTH, counter);
 
-    if let Some(bg) = best_game {
-      println!(
-        "Best game found with {} tiles remaining:\n{}",
-        bg.player_tiles.tiles.len(),
-        bg
-      );
-    } else {
-      println!("No valid games found at this depth.");
-    }
+  if let Some(bg) = best_game {
+    println!(
+      "Best game found with {} tiles remaining:\n{}",
+      bg.player_tiles.tiles.len(),
+      bg
+    );
+    return Some(bg);
   }
+
+  println!("No valid games found at this depth.");
+  return None;
 }
 
 fn check_if_game_best(potential_best: &Game, best_game: &mut Option<Game>) {
@@ -41,6 +41,8 @@ fn find_best_game(
   all_games: &mut HashSet<Game>,
 ) -> Option<Game> {
   *counter += 1;
+
+  println!("{} {}", depth, counter);
 
   if !all_games.insert(current_game.clone()) {
     return None;

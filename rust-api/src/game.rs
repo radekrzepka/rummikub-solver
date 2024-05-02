@@ -4,12 +4,12 @@ use std::{
   fs::File,
 };
 
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use serde_json::Error;
 
 use crate::tile::{Color, FromWhere, MoveType, Tile, TileMove, TileValue};
 
-#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq, Serialize)]
 pub enum SetType {
   Group,
   Run,
@@ -24,7 +24,7 @@ impl fmt::Display for SetType {
   }
 }
 
-#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq, Serialize)]
 pub struct Set {
   tiles: Vec<Tile>,
   set_type: SetType,
@@ -43,7 +43,7 @@ impl fmt::Display for Set {
   }
 }
 
-#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq, Serialize)]
 pub struct Board {
   sets: Vec<Set>,
 }
@@ -245,7 +245,7 @@ impl Board {
   }
 }
 
-#[derive(Debug, Deserialize, Clone, PartialEq, Eq, Hash)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Eq, Hash, Serialize)]
 pub struct Player {
   pub tiles: Vec<Tile>,
 }
@@ -263,7 +263,7 @@ impl fmt::Display for Player {
   }
 }
 
-#[derive(Debug, Deserialize, Clone, Eq, Hash, PartialEq)]
+#[derive(Debug, Deserialize, Clone, Eq, Hash, PartialEq, Serialize)]
 pub struct Game {
   pub board: Board,
   pub player_tiles: Player,
@@ -518,8 +518,14 @@ impl Game {
   }
 }
 
-pub fn deserialize_game(file: File) -> Result<Game, serde_json::Error> {
+pub fn deserialize_game_from_file(file: File) -> Result<Game, serde_json::Error> {
   let game: Result<Game, Error> = serde_json::from_reader(file);
+
+  return game;
+}
+
+pub fn deserialize_game_from_string(json_data: String) -> Result<Game, serde_json::Error> {
+  let game: Result<Game, serde_json::Error> = serde_json::from_str(&json_data);
 
   return game;
 }

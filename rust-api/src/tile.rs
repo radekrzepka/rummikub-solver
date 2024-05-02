@@ -1,8 +1,8 @@
 use std::fmt;
 
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Deserialize, PartialEq, Clone, Eq, Hash)]
+#[derive(Debug, Deserialize, PartialEq, Clone, Eq, Hash, Serialize)]
 pub enum Color {
   Red,
   Blue,
@@ -10,13 +10,13 @@ pub enum Color {
   Black,
 }
 
-#[derive(Debug, Deserialize, PartialEq, Clone, Hash, Eq)]
+#[derive(Debug, Deserialize, PartialEq, Clone, Hash, Eq, Serialize)]
 pub enum TileValue {
   Number(u8),
   Joker,
 }
 
-#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq)]
+#[derive(Debug, Deserialize, Clone, PartialEq, Hash, Eq, Serialize)]
 pub struct Tile {
   pub value: TileValue,
   pub color: Color,

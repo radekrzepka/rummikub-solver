@@ -1,3 +1,4 @@
 {
-   "rust-analyzer.linkedProjects": ["./rust-api/Cargo.toml"]
+   "rust-analyzer.linkedProjects": ["./rust-api/Cargo.toml"],
+   "cSpell.words": ["actix", "serde"]
 }

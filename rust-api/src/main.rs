@@ -1,33 +1,29 @@
-use std::fs::File;
+use actix_web::{post, App, HttpResponse, HttpServer, Responder};
 
 mod brute_force;
 mod game;
 mod tile;
 
 use brute_force::find_best_game_brute_force;
-use game::deserialize_game;
+use game::deserialize_game_from_string;
 
-fn main() {
-  for i in 8..=8 {
-    println!("Game {}", i);
+#[post("/")]
+async fn find_best_game(req_body: String) -> impl Responder {
+  let game = match deserialize_game_from_string(req_body) {
+    Ok(game) => game,
+    Err(e) => return HttpResponse::BadRequest().body(format!("Failed to deserialize game: {}", e)),
+  };
 
-    let file_path = format!("testing-boards/board{}.json", i);
-    let file = match File::open(&file_path) {
-      Ok(file) => file,
-      Err(e) => {
-        eprintln!("Failed to open file '{}': {}", file_path, e);
-        return;
-      }
-    };
-
-    let game = match deserialize_game(file) {
-      Ok(game) => game,
-      Err(e) => {
-        eprintln!("Failed to deserialize game: {}", e);
-        return;
-      }
-    };
-
-    find_best_game_brute_force(&game);
+  match find_best_game_brute_force(&game) {
+    Some(best_game) => HttpResponse::Ok().json(best_game),
+    None => HttpResponse::BadRequest().body("No best game could be determined."),
   }
+}
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+  HttpServer::new(|| App::new().service(find_best_game))
+    .bind("0.0.0.0:3002")?
+    .run()
+    .await
 }
