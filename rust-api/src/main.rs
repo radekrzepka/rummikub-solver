@@ -15,8 +15,8 @@ async fn find_best_game(req_body: String) -> impl Responder {
   };
 
   match find_best_game_brute_force(&game) {
-    Some(best_game) => HttpResponse::Ok().json(best_game),
-    None => HttpResponse::BadRequest().body("No best game could be determined."),
+    Some(best_game) => return HttpResponse::Ok().json(best_game),
+    None => return HttpResponse::BadRequest().body("No best game could be determined."),
   }
 }
 
